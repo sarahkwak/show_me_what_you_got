@@ -1,0 +1,2 @@
+class PublicValue < ApplicationRecord
+end
