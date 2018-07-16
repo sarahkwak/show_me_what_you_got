@@ -1,0 +1,7 @@
+h1 Show Me What You Got
+h2 Ryan and Sarah's Dinner Solution
+
+=form_for :ingredients, url: "/recipes" do |f|
+  = f.text_field :list, placeholder: "What ingredients you have?", size: 100
+  = f.submit "Submit"
+
